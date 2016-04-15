@@ -1,3 +1,9 @@
 
 Documentation is available at http://nginx.org
 
+## install
+sudo apt install libpcre3 libpcre3-dev
+
+./configure --add-module=./handler --with-openssl=/usr/lib/x86_64-linux-gnu/openssl-1.0.0
+make
+sudo make install
